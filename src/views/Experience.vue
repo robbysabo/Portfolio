@@ -142,8 +142,31 @@
         <!-- Projects -->
         <h2 class="py-3 m-0 fw-bolder border-top border-light title-color">Projects</h2>
         <!-- Row -->
-        <div class="row w-100 pb-5 px-3 m-0">
+        <div class="row w-100 pb-md-5 px-3 m-0">
           <!-- Top Left -->
+          <div class="col-12 col-md-4">
+            <!-- Card -->
+            <div class="card h-100">
+              <a href="https://robbysabo.github.io/Project3-Vue-SPA-WeGeekTogether/" target="_blank" rel="noopener noreferrer">
+                <img src="../../static/we-geek-together-sign.jpg" class="card-img-top d-none d-md-block" alt="website of my project Fake Arcade" />
+              </a>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title title-color text-border">We Geek Together</h5>
+                <p class="card-text">
+                  A D&D shop with D.M's to hire for a 4 hour campaign. Or shop around for D&D products. This is one of the first website outside of College that
+                  I worked on.
+                </p>
+                <p class="card-text mt-auto">
+                  <a href="https://robbysabo.github.io/Project3-Vue-SPA-WeGeekTogether/" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                    <small class="text-muted">Click here to view <font-awesome-icon icon="fa-solid fa-up-right-from-square" /></small>
+                  </a>
+                </p>
+              </div>
+            </div>
+            <!-- Card -->
+          </div>
+          <!-- Top Left -->
+          <!-- Top Middle -->
           <div class="col-12 col-md-4">
             <!-- Card -->
             <div class="card h-100">
@@ -164,8 +187,8 @@
             </div>
             <!-- Card -->
           </div>
-          <!-- Top Left -->
           <!-- Top Middle -->
+          <!-- Top Right -->
           <div class="col-12 col-md-4">
             <!-- Card -->
             <div class="card h-100">
@@ -184,8 +207,11 @@
             </div>
             <!-- Card -->
           </div>
-          <!-- Top Middle -->
-          <!-- Top Right -->
+        </div>
+        <!-- Top Right -->
+        <!-- Row -->
+        <div class="row pb-5 px-3 m-0">
+          <!-- Bottom Left -->
           <div class="col-12 col-md-4">
             <!-- Card -->
             <div class="card h-100">
@@ -206,8 +232,8 @@
             </div>
             <!-- Card -->
           </div>
-          <!-- Top Right -->
           <!-- Bottom Left -->
+          <!-- Bottom Middle -->
           <div class="col-12 col-md-4 mx-auto">
             <!-- Card -->
             <div class="card h-100">
@@ -226,8 +252,8 @@
             </div>
             <!-- Card -->
           </div>
-          <!-- Bottom Left -->
           <!-- Bottom Middle -->
+          <!-- Bottom Right -->
           <div class="col-12 col-md-4 mx-auto">
             <!-- Card -->
             <div class="card h-100">
@@ -247,9 +273,10 @@
             </div>
             <!-- Card -->
           </div>
-          <!-- Bottom Middle -->
-          <!-- Row -->
+          <!-- Bottom Right -->
         </div>
+        <!-- Row -->
+
         <!-- Education -->
         <h2 class="py-3 m-0 fw-bolder border-top border-light title-color">Education</h2>
         <div class="row w-100 pb-5 m-0">
