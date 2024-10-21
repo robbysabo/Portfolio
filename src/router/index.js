@@ -9,33 +9,33 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
+      path: '/Portfolio',
       name: 'home',
       component: HomeView,
     },
     {
-      path: '/about',
+      path: '/Portfolio/about',
       name: 'about',
       component: AboutView,
     },
     {
-      path: '/experience',
+      path: '/Portfolio/experience',
       name: 'experience',
       component: ExperienceView,
     },
     {
-      path: '/contact',
+      path: '/Portfolio/contact',
       name: 'contact',
       component: ContactView,
     },
     {
-      path: '/success',
+      path: '/Portfolio/success',
       name: 'success',
       component: SuccessView,
     },
     {
       // any unknown path goes back to home screen
-      path: '/:pathMatch(.*)*',
+      path: '/Portfolio/:pathMatch(.*)*',
       component: HomeView,
     },
   ],
