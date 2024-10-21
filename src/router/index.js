@@ -5,37 +5,39 @@ import ExperienceView from '../views/ExperienceView.vue'
 import ContactView from '../views/ContactView.vue'
 import SuccessView from '../views/SuccessView.vue'
 
+var baseURL = import.meta.env.BASE_URL + '/Portfolio'
+
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(baseURL),
   routes: [
     {
-      path: '/Portfolio',
+      path: '/',
       name: 'home',
       component: HomeView,
     },
     {
-      path: '/Portfolio/about',
+      path: '/about',
       name: 'about',
       component: AboutView,
     },
     {
-      path: '/Portfolio/experience',
+      path: '/experience',
       name: 'experience',
       component: ExperienceView,
     },
     {
-      path: '/Portfolio/contact',
+      path: '/contact',
       name: 'contact',
       component: ContactView,
     },
     {
-      path: '/Portfolio/success',
+      path: '/success',
       name: 'success',
       component: SuccessView,
     },
     {
       // any unknown path goes back to home screen
-      path: '/Portfolio/:pathMatch(.*)*',
+      path: '/:pathMatch(.*)*',
       component: HomeView,
     },
   ],
