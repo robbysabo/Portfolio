@@ -20,6 +20,6 @@ HTML, CSS, Javascript.
 
 [FormSubmit](https://formsubmit.co/) - Simple email form submission
 
-### Modification Log
+## Modification Log
 
 Located top of `index.js`
