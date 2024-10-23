@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta
+            name="description"
+            content="About page of a portfolio site of Robert Sabo" />
+        <meta name="robots" content="index, follow" />
+        <link rel="icon" href="favicon.ico" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous" />
+
+        <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://kit.fontawesome.com/8d8701d4be.js"
+            crossorigin="anonymous"></script>
+        <title>Robert Sabo's Portfolio</title>
+        <style>
+            .experience .dark-bg {
+                background-color: rgba(28, 35, 49, 0.75);
+            }
+
+            .experience .title-color {
+                color: #191900;
+                text-shadow: rgba(25, 25, 0, 0.5) 1px 1px 16px;
+            }
+
+            .experience a.card {
+                color: #00001f;
+                text-decoration: none;
+            }
+
+            .experience .text-border {
+                border-bottom: 1px solid rgba(28, 35, 49, 0.15);
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid p-0">
+                <a class="navbar-brand ps-3" href="index.html">
+                    <img
+                        src="./static/logo.png"
+                        alt="logo"
+                        class="img-fluid m-0 p-0"
+                        width="128" />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav w-100 karla">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link ms-3 ms-lg-0 fs-5"
+                                aria-current="page"
+                                href="index.html"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link ms-3 ms-lg-0 fs-5"
+                                href="about.html"
+                                >About</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link ms-3 ms-lg-0 fs-5 current-link"
+                                href="experience.html"
+                                >Experience</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link ms-3 ms-lg-0 fs-5"
+                                href="contact.html"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- END Navbar -->
+        <!-- Body Content -->
+        <!-- Container -->
+        <div
+            class="w-100 d-flex flex-column justify-content-center align-items-center text-center mt-5 experience">
+            <div class="dark-bg w-100">
+                <h1
+                    class="w-100 pt-4 pb-3 m-0 display-3 text-white text-uppercase">
+                    Experience
+                </h1>
+                <p class="fs-6 text-white pb-4">
+                    Here is all of my accomplishments
+                </p>
+            </div>
+            <!-- Container -->
+            <div class="container-fluid px-0 mt-4">
+                <!-- Programing Skills -->
+                <h2 class="pt-3 m-0 fw-bolder title-color">
+                    Programming Skills
+                </h2>
+                <!-- Row -->
+                <div class="row w-100 mb-5 mt-0 mx-0">
+                    <!-- Left -->
+                    <div class="col-12 col-md-6 py-5">
+                        <div>
+                            <canvas id="myChart"></canvas>
+                        </div>
+                    </div>
+                    <!-- Left -->
+                    <!-- Right -->
+                    <div class="col-12 col-md-6 h-100 my-auto">
+                        <h5>Skill Rating</h5>
+                        <ul class="list-group list-group-flush">
+                            <li
+                                class="list-group-item d-flex justify-content-between bg-transparent">
+                                <div class="ps-2">
+                                    <p class="m-0">HTML/CSS</p>
+                                </div>
+                                <div class="pe-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </li>
+                            <li
+                                class="list-group-item d-flex justify-content-between bg-transparent">
+                                <div class="ps-2">JavaScript</div>
+                                <div class="pe-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </li>
+                            <li
+                                class="list-group-item d-flex justify-content-between bg-transparent">
+                                <div class="ps-2">C# (.NET)</div>
+                                <div class="pe-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </li>
+                            <li
+                                class="list-group-item d-flex justify-content-between bg-transparent">
+                                <div class="ps-2">VueJs</div>
+                                <div class="pe-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </li>
+                            <li
+                                class="list-group-item d-flex justify-content-between bg-transparent">
+                                <div class="ps-2">ReactJs</div>
+                                <div class="pe-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </li>
+                            <li
+                                class="list-group-item d-flex justify-content-between bg-transparent">
+                                <div class="ps-2">AWS</div>
+                                <div class="pe-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Right -->
+                    <!-- Row -->
+                </div>
+                <!-- Row -->
+                <div
+                    class="row w-100 mb-5 mt-0 mx-0 pt-5 border-top border-light">
+                    <!-- Text -->
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <h3 class="text-border">HTML/CSS</h3>
+                        <p>
+                            I have <strong>5 years</strong> of writing HTML and
+                            CSS. Started with basic static sites for practice.
+                        </p>
+                    </div>
+                    <!-- Text -->
+                    <!-- Text -->
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <h3 class="text-border">JavaScript</h3>
+                        <p>
+                            I also have <strong>5 years</strong> of writting
+                            JavaScript. It was mostly from learning JavaScript
+                            frameworks. Built in React and Vue.
+                        </p>
+                    </div>
+                    <!-- Text -->
+                    <!-- Text -->
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <h3 class="text-border">C# (.NET)</h3>
+                        <p>
+                            I started with the C# language as my first
+                            programming language. I have
+                            <strong>11 years</strong> of experience with C#,
+                            starting all the way <em>back in 2013</em>. I mostly
+                            used it for game development in the game engine
+                            <i>Unity.</i>
+                        </p>
+                    </div>
+                    <!-- Text -->
+                    <!-- Text -->
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <h3 class="text-border">VueJs</h3>
+                        <p>
+                            About 2 Years of using Vue framework. It has been an
+                            easy learning curve to anyone that needs a fast and
+                            reliable framework. I built some my recent web
+                            projects with Vue.
+                        </p>
+                    </div>
+                    <!-- Text -->
+                    <!-- Text -->
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <h3 class="text-border">ReactJs</h3>
+                        <p>
+                            I started with React framework a little over a
+                            <strong>1 year</strong>. I built small web apps
+                            learning the framework. Though, this framework went
+                            through a lot of changes over the past couple of
+                            years. I have a great foundation for React.
+                        </p>
+                    </div>
+                    <!-- Text -->
+                    <!-- Text -->
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <h3 class="text-border">AWS</h3>
+                        <p>
+                            Only recently in the last year, I have been pushing
+                            my way into AWS. So far I can setup a simple
+                            serverless website for any site made with AWS S3.
+                        </p>
+                    </div>
+                    <!-- Text -->
+                </div>
+                <!-- Row -->
+                <!-- Programing Skills -->
+                <!-- Projects -->
+                <h2
+                    class="py-3 m-0 fw-bolder border-top border-light title-color">
+                    Projects
+                </h2>
+                <!-- Row -->
+                <div class="row w-100 pb-md-5 px-3 m-0">
+                    <!-- Top Left -->
+                    <div class="col-12 col-md-4">
+                        <!-- Card -->
+                        <div class="card h-100">
+                            <a
+                                href="https://robbysabo.github.io/Project3-Vue-SPA-WeGeekTogether/"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <img
+                                    src="./static/we-geek-together-sign.jpg"
+                                    class="card-img-top d-none d-md-block"
+                                    alt="website of my project Fake Arcade" />
+                            </a>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title title-color text-border">
+                                    We Geek Together
+                                </h5>
+                                <p class="card-text">
+                                    A D&D shop with D.M's to hire for a 4 hour
+                                    campaign. Or shop around for D&D products.
+                                    This is one of the first website outside of
+                                    College that I worked on.
+                                </p>
+                                <p class="card-text mt-auto">
+                                    <a
+                                        href="https://robbysabo.github.io/Project3-Vue-SPA-WeGeekTogether/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="text-decoration-none">
+                                        <small class="text-muted"
+                                            >Click here to view
+                                            <font-awesome-icon
+                                                icon="fa-solid fa-up-right-from-square"
+                                        /></small>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Card -->
+                    </div>
+                    <!-- Top Left -->
+                    <!-- Top Middle -->
+                    <div class="col-12 col-md-4">
+                        <!-- Card -->
+                        <div class="card h-100">
+                            <a
+                                href="https://robbysabo.github.io/Fall2022-Final/index.html"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <img
+                                    src="./static/fakearcade.png"
+                                    class="card-img-top d-none d-md-block"
+                                    alt="website of my project Fake Arcade" />
+                            </a>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title title-color text-border">
+                                    Fake Arcade
+                                </h5>
+                                <p class="card-text">
+                                    This is a static website I created from
+                                    vanilla HTML, CSS, and JavaScript. It is a
+                                    demonstration of JavaScript and jQuery
+                                    library.
+                                </p>
+                                <p class="card-text mt-auto">
+                                    <a
+                                        href="https://robbysabo.github.io/Fall2022-Final/index.html"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="text-decoration-none">
+                                        <small class="text-muted"
+                                            >Click here to view
+                                            <font-awesome-icon
+                                                icon="fa-solid fa-up-right-from-square"
+                                        /></small>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Card -->
+                    </div>
+                    <!-- Top Middle -->
+                    <!-- Top Right -->
+                    <div class="col-12 col-md-4">
+                        <!-- Card -->
+                        <div class="card h-100">
+                            <a
+                                href="https://mrzig0.csb.app/"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <img
+                                    src="./static/pokedex.png"
+                                    class="card-img-top d-none d-md-block"
+                                    alt="website of my project Fake Arcade" />
+                            </a>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title title-color text-border">
+                                    Case Study: Pokemon
+                                </h5>
+                                <p class="card-text">
+                                    This a demonstration website of using VueJs.
+                                    The website shows off the routing system
+                                    with Vue Routing.
+                                </p>
+                                <p class="card-text mt-auto">
+                                    <a
+                                        href="https://mrzig0.csb.app/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="text-decoration-none">
+                                        <small class="text-muted"
+                                            >Click here to view
+                                            <font-awesome-icon
+                                                icon="fa-solid fa-up-right-from-square"
+                                        /></small>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Card -->
+                    </div>
+                </div>
+                <!-- Top Right -->
+                <!-- Row -->
+                <div class="row pb-5 px-3 m-0">
+                    <!-- Bottom Left -->
+                    <div class="col-12 col-md-4">
+                        <!-- Card -->
+                        <div class="card h-100">
+                            <a
+                                href="https://8p1fy8.csb.app/"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <img
+                                    src="./static/robofriends.png"
+                                    class="card-img-top d-none d-md-block"
+                                    alt="A demo site of Vue and Bootstrap" />
+                            </a>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title title-color text-border">
+                                    Robofriends
+                                </h5>
+                                <p class="card-text">
+                                    A frontend demonstration of using the Vue
+                                    and Bootstrap together. It also shows the
+                                    use of getting data and parse it with Vue
+                                    and JSON.
+                                </p>
+                                <p class="card-text mt-auto">
+                                    <a
+                                        href="https://8p1fy8.csb.app/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="text-decoration-none">
+                                        <small class="text-muted"
+                                            >Click here to view
+                                            <font-awesome-icon
+                                                icon="fa-solid fa-up-right-from-square"
+                                        /></small>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Card -->
+                    </div>
+                    <!-- Bottom Left -->
+                    <!-- Bottom Middle -->
+                    <div class="col-12 col-md-4 mx-auto">
+                        <!-- Card -->
+                        <div class="card h-100">
+                            <a
+                                href="https://m0xyh7.csb.app/"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <img
+                                    src="./static/reactdemo.png"
+                                    class="card-img-top d-none d-md-block"
+                                    alt="A demo site of React framework" />
+                            </a>
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title title-color text-border">
+                                    Music Company
+                                </h5>
+                                <p class="card-text">
+                                    A demonstration of using the framework
+                                    ReactJs as a frontend.
+                                </p>
+                                <p class="card-text mt-auto">
+                                    <a
+                                        href="https://m0xyh7.csb.app/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="text-decoration-none">
+                                        <small class="text-muted"
+                                            >Click here to
+                                            view&nbsp;<font-awesome-icon
+                                                icon="fa-solid fa-up-right-from-square"
+                                        /></small>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Card -->
+                    </div>
+                    <!-- Bottom Middle -->
+                    <!-- Bottom Right -->
+                    <div class="col-12 col-md-4 mx-auto">
+                        <!-- Card -->
+                        <div class="card h-100">
+                            <img
+                                src="./static/backend.png"
+                                class="card-img-top d-none d-md-block"
+                                alt="Code in an editor" />
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title title-color text-border">
+                                    Example of Backend
+                                </h5>
+                                <p class="card-text">
+                                    Backend work can be located at my Github or
+                                    CodeSandbox
+                                </p>
+                                <p class="card-text mt-auto">
+                                    <a
+                                        href="https://github.com/robbysabo"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="text-decoration-none mb-0 me-3">
+                                        <small class="text-muted"
+                                            >View in
+                                            Github&nbsp;<font-awesome-icon
+                                                icon="fa-solid fa-up-right-from-square"
+                                        /></small>
+                                    </a>
+                                    <a
+                                        href="https://codesandbox.io/u/robbysabo"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="text-decoration-none">
+                                        <small class="text-muted"
+                                            >View&nbsp;in&nbsp;CodeSandbox&nbsp;<font-awesome-icon
+                                                icon="fa-solid fa-up-right-from-square" />&nbsp;</small
+                                        >
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Card -->
+                    </div>
+                    <!-- Bottom Right -->
+                </div>
+                <!-- Row -->
+
+                <!-- Education -->
+                <h2
+                    class="py-3 m-0 fw-bolder border-top border-light title-color">
+                    Education
+                </h2>
+                <div class="row w-100 m-0">
+                    <div class="col-12 col-sm-6">
+                        <h3 class="text-border">Degree</h3>
+                        <h5>College of Western Idaho</h5>
+                        <p>
+                            Associate of Applied Science: Software Development
+                            <i>2024</i>
+                        </p>
+                        <a
+                            href="https://cwi.edu"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-decoration-none"
+                            ><img
+                                src="./static/cwi.png"
+                                alt="College of Western Idaho"
+                                class="img-fluid"
+                        /></a>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <h3 class="text-border">Certification</h3>
+                        <p>I.T.S. Badges HTML 5 Application Developer</p>
+                        <img
+                            src="./static/ITS-Badges_HTML-5.png"
+                            alt="I.T.S. Badges HTML 5 Application Developer"
+                            class="h-50 img-fluid" />
+                    </div>
+                </div>
+            </div>
+            <!-- Container -->
+        </div>
+        <!-- Container -->
+        <!-- END Body Content -->
+        <!-- Footer -->
+        <footer class="text-center text-white">
+            <!-- Section: Links  -->
+            <section class="container text-center pt-1">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h5 class="text-uppercase">Projects</h5>
+                        <hr
+                            class="mb-4 mt-0 d-inline-block mx-auto line-break" />
+                        <p>
+                            <a
+                                href="https://www.wegeektogether.com/"
+                                target="_blank"
+                                class="text-white"
+                                >We Geek Together</a
+                            >
+                        </p>
+                        <p>
+                            <a
+                                href="https://mrzig0.csb.app/"
+                                target="_blank"
+                                class="text-white"
+                                >Case Study: Pokémon</a
+                            >
+                        </p>
+                        <p>
+                            <a
+                                href="https://m0xyh7.csb.app/"
+                                target="_blank"
+                                class="text-white"
+                                >Music Company</a
+                            >
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h5 class="text-uppercase">Navigation</h5>
+                        <hr
+                            class="mb-4 mt-0 d-inline-block mx-auto line-break" />
+                        <p>
+                            <a class="text-white" href="index.html">Home</a>
+                        </p>
+                        <p>
+                            <a class="text-white" href="about.html">About</a>
+                        </p>
+                        <p>
+                            <a class="text-white" href="experience.html"
+                                >Experience</a
+                            >
+                        </p>
+                        <p>
+                            <a class="text-white" href="contact.html"
+                                >Contact</a
+                            >
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div
+                        class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h5 class="text-uppercase">Contact</h5>
+                        <hr
+                            class="mb-4 mt-0 d-inline-block mx-auto line-break" />
+                        <p>
+                            <a
+                                href="mailto:robertalensabo@gmail.com"
+                                class="text-white"
+                                ><i class="fa-solid fa-envelope me-1"></i>
+                                robertalensabo@gmail.com</a
+                            >
+                        </p>
+                        <p>
+                            <a href="tel:+12087408655" class="text-white"
+                                ><i class="fa-solid fa-phone me-1"></i> 1 (208)
+                                740 - 8655</a
+                            >
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Section: Copyright/Social media -->
+            <section
+                class="d-flex justify-content-between align-items-center p-3 bottom-section">
+                <!-- Left -->
+                <div
+                    class="d-flex justify-content-center align-items-center ms-3">
+                    <span class="d-none d-md-inline"
+                        >Connect with me on social networks:</span
+                    >
+                    <hr class="vr pb-5 my-0 m-3 d-none d-md-inline-block" />
+                    <div>
+                        <a
+                            href="https://github.com/robbysabo"
+                            class="text-white me-4 h2">
+                            <i class="fa-brands fa-square-github"></i>
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/in/robert-sabo-308860212"
+                            class="text-white me-4 h2">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a
+                            href="https://codesandbox.io/u/robbysabo"
+                            class="text-white me-4 h2">
+                            <i class="fa-regular fa-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Left -->
+                <!-- Middle -->
+                <div class="d-none d-md-block">
+                    <p class="m-0">
+                        <small
+                            >Made with HTML, CSS, JS, and
+                            <a
+                                href="https://getbootstrap.com/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="text-white text-decoration-none">
+                                Bootstrap 5
+                            </a>
+                            |
+                            <a
+                                href="https://github.com/robbysabo/Portfolio"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="text-white text-decoration-none">
+                                Source Code
+                            </a>
+                        </small>
+                    </p>
+                </div>
+                <!-- Middle -->
+                <!-- Right -->
+                <div class="me-3">
+                    <span class="karla"
+                        ><a
+                            class="text-white"
+                            href="https://github.com/robbysabo/"
+                            >Robert Sabo</a
+                        >
+                        ©
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script></span
+                    >
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+        </footer>
+        <!-- END Footer -->
+        <!-- Scripts -->
+        <!-- Bootstrap JS -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <!-- Chart.js -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="experience.js"></script>
+    </body>
+</html>
